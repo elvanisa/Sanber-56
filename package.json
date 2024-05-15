@@ -1,0 +1,22 @@
+{
+  "name": "sanber-56",
+  "version": "1.0.0",
+  "description": "xxxxxxxx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvanisa/Sanber-56.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvanisa/Sanber-56/issues"
+  },
+  "homepage": "https://github.com/elvanisa/Sanber-56#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
