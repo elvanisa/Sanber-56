@@ -4,7 +4,7 @@
   "description": "xxxxxxxx",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "runKasir": "npx cypress run --browser 'chrome' --spec 'cypress/e2e/web-test/kasirAja.cy.js'"
   },
   "repository": {
     "type": "git",

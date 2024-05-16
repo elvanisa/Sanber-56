@@ -12,6 +12,11 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
+Cypress.Commands.add('kasirlogin', (useremail,userpassw) => {
+    cy.get('#email').type(useremail)
+    cy.get('#password').type(userpassw)
+    cy.get('.chakra-button').click()
+})
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
