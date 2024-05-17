@@ -1,0 +1,23 @@
+{
+    "valid": {
+        "email": "elva@gmail.com"
+    },
+    "invalid": [
+        {
+            "invalid_user": "xxx",
+            "invalid_passw": "abc"
+        },
+        {
+            "invalid_user": "xxx@gmail.com",
+            "invalid_passw": "salah_password"
+        },
+        {
+            "invalid_user": "locked@gmail.com",
+            "invalid_passw": "benar_password"
+        },
+        {
+            "invalid_user": "error@gmail.com",
+            "invalid_passw": "error_password"
+        }
+    ]
+}

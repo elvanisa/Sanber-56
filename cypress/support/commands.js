@@ -13,10 +13,23 @@
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
 Cypress.Commands.add('kasirlogin', (useremail,userpassw) => {
-    cy.get('#email').type(useremail)
-    cy.get('#password').type(userpassw)
+    cy.get('#email').clear().type(useremail)
+    cy.get('#password').clear().type(userpassw)
     cy.get('.chakra-button').click()
 })
+
+Cypress.Commands.add('kasirKetik', (elemen,value) => {
+    cy.get(elemen)
+    .should('be.visible')
+    .clear()
+    .type(value)
+})
+
+Cypress.Commands.add('kasirVerify', (elemen,textnya) => {
+    cy.get(elemen)
+    .should('contain.text',textnya)
+})
+
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
