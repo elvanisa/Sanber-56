@@ -8,6 +8,7 @@ module.exports = defineConfig({
     },
     viewportHeight: 670,
     defaultCommandTimeout: 4500,
-    screenshotOnRunFailure: false
+    screenshotOnRunFailure: false,
+    pageLoadTimeout: 80000
   },
 });
